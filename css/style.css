@@ -39,19 +39,32 @@ line-height: 1.36;}
     line-height: 2.63;
     color: #212121;
 }
+.p1{font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;}
  .name{
     font-size: 16px;
     font-weight: 500;
     line-height: 1.19;
     color: #212121;
     }
+
+.p2{font-weight: 400;
+    font-size: 16px;
+    line-height:.53}
+.example{font-weight: 700;
+    font-size: 18px;
+    line-height: 2.25;}
+    .p3 {font-weight: 700;
+    font-size: 18px;
+    line-height: 2.25;}
+
 .bw2{font-family: Roboto;
 font-size: 16px;
 font-weight: 500;
 background: #F5F4FA;
 color: black;
-line-height: 1.62;
-}
+line-height: 1.62;}
 footer{background: #2F303A;
 color: #F5F4FA;
 line-height: 1.71;
