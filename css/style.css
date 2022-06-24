@@ -2,13 +2,14 @@
   --brand-color: #2196f3;
   --brand-background: #2f303a;
   --text-color: #f5f4fa;
+  --paragraph-color: #757575;
 }
 
 .logo {
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.91;
+  line-height: 1.19;
   color: var(--brand-color);
   text-decoration: none;
 }
@@ -23,11 +24,13 @@ ul {
 }
 .contact1 {
   color: #212121;
-  font-size: 400;
+  font-weight: 500;
+  font-size: 14px;
 }
 .contact2 {
-  font-size: 400;
-  color: #757575;
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--paragraph-color);
 }
 .contact1:hover {
   color: var(--brand-color);
@@ -44,7 +47,10 @@ ul {
   font-weight: 700;
   color: var(--text-color);
   background: var(--brand-color);
-  line-height: 1.88;
+  line-height: 1.876;
+}
+.p1 .p2 .p3 {
+  color: var(--paragraph-color);
 }
 .s1 {
   color: var(--text-color);
@@ -54,6 +60,7 @@ ul {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
+  color: #ffffff;
 }
 body {
   font-family: Roboto;
@@ -64,41 +71,43 @@ body {
 .lorem {
   font-size: 14px;
   font-weight: 700;
-  line-height: 1;
+  line-height: 0.88;
 }
 h2 {
   font-size: 36px;
   font-weight: 700;
-  line-height: 2.63;
+  line-height: 1.17;
 }
 .p1 {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
 }
 .name {
   font-weight: 500;
   line-height: 1.19;
+  font-size: 16px;
 }
 
 .p2 {
-  font-weight: 400;
-  line-height: 0.53;
+  line-height: 1.19;
+  font-size: 16px;
 }
 .example {
   font-weight: 700;
   font-size: 18px;
-  line-height: 2.25;
+  line-height: 0.5;
 }
 .p3 {
-  font-weight: 400;
   line-height: 1.88;
+  font-size: 16px;
+  color: var(--text-color);
 }
 
 .bw2 {
   font-weight: 500;
   background: var(--text-color);
-  line-height: 1.62;
+  line-height: 1.626;
+  font-size: 16px;
 }
 .bw2:hover {
   background-color: var(--brand-color);
@@ -106,18 +115,17 @@ h2 {
 
 footer {
   background: var(--brand-background);
-  color: #f5f4fa;
+  color: var(--text-color);
   line-height: 1.71;
-  font-size: 400;
+  font-size: 14px;
 }
 .whitetext {
   color: var(--text-color);
 }
 .back {
-  font-weight: 400;
-  font-size: 14px;
   line-height: 1.71;
-  color: var(--text-color);
+  color: #ffffff;
+  opacity: 60%;
 }
 .back:hover {
   color: var(--brand-color);
