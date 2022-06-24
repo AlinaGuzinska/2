@@ -1,78 +1,124 @@
-:root{--brand-color:#2196F3;
+:root {
+  --brand-color: #2196f3;
+  --brand-background: #2f303a;
+  --text-color: #f5f4fa;
 }
 
-
-.logo{font-family: Ralewey;
-font-weight: 700;
-font-size: 26px;
-line-height: 1.91;}
-.contact{font-size: 400;
-color:#757575;
+.logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.91;
+  color: var(--brand-color);
+  text-decoration: none;
 }
-.contact:hover{color:var(--brand-color)}
-
-
-.button {cursor: pointer;}
-.bw1 {font-family: Roboto;
-    font-size: 16px;
-    font-weight: 700;
-    color: white;
-    background: var(--brand-color);
-    line-height: 1.88;
+.blacktext {
+  color: #212121;
 }
-.body{
-color: white;
-background: #2F303A;
+ul {
+  list-style: none;
 }
-.title{
-font-weight: 900;
-font-size:44px;
-line-height: 1.36;}
-.lorem{
-    font-size: 14px;
-    font-weight: 700;
-    color: #212121;
-    line-height: 1;
- }
- h2{font-family: Roboto;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 2.63;
-    color: #212121;
+.link {
+  text-decoration: none;
 }
-.p1{font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;}
- .name{
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.19;
-    color: #212121;
-    }
+.contact1 {
+  color: #212121;
+  font-size: 400;
+}
+.contact2 {
+  font-size: 400;
+  color: #757575;
+}
+.contact1:hover {
+  color: var(--brand-color);
+}
+.contact2:hover {
+  color: var(--brand-color);
+}
+.button {
+  cursor: pointer;
+}
+.bw1 {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text-color);
+  background: var(--brand-color);
+  line-height: 1.88;
+}
+.s1 {
+  color: var(--text-color);
+  background: var(--brand-background);
+}
+.title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+}
+body {
+  font-family: Roboto;
+  color: #212121;
+  font-size: 16px;
+}
 
-.p2{font-weight: 400;
-    font-size: 16px;
-    line-height:.53}
-.example{font-weight: 700;
-    font-size: 18px;
-    line-height: 2.25;}
-    .p3 {font-weight: 400;
-        font-size: 16px;
-        line-height: 1.88;}
+.lorem {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1;
+}
+h2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 2.63;
+}
+.p1 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.name {
+  font-weight: 500;
+  line-height: 1.19;
+}
 
-.bw2{font-family: Roboto;
-font-size: 16px;
-font-weight: 500;
-background: #F5F4FA;
-color: black;
-line-height: 1.62;}
-.bw2:hover{background-color:var(--brand-color)}
-footer{background: #2F303A;
-color: #F5F4FA;
-line-height: 1.71;
-font-size:400;}
-.back{font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-color:#F5F4FA}
-.back:hover{color:var(--brand-color)}
+.p2 {
+  font-weight: 400;
+  line-height: 0.53;
+}
+.example {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2.25;
+}
+.p3 {
+  font-weight: 400;
+  line-height: 1.88;
+}
+
+.bw2 {
+  font-weight: 500;
+  background: var(--text-color);
+  line-height: 1.62;
+}
+.bw2:hover {
+  background-color: var(--brand-color);
+}
+
+footer {
+  background: var(--brand-background);
+  color: #f5f4fa;
+  line-height: 1.71;
+  font-size: 400;
+}
+.whitetext {
+  color: var(--text-color);
+}
+.back {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--text-color);
+}
+.back:hover {
+  color: var(--brand-color);
+}
