@@ -100,7 +100,6 @@ h2 {
 .p3 {
   line-height: 1.88;
   font-size: 16px;
-  color: var(--text-color);
 }
 
 .bw2 {
@@ -110,6 +109,7 @@ h2 {
   font-size: 16px;
 }
 .bw2:hover {
+  color: #ffffff;
   background-color: var(--brand-color);
 }
 
