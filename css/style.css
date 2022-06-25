@@ -5,6 +5,12 @@
   --paragraph-color: #757575;
 }
 
+body {
+  font-family: Roboto;
+  color: #212121;
+  font-size: 16px;
+}
+
 .logo {
   font-family: Raleway;
   font-weight: 700;
@@ -23,9 +29,9 @@ ul {
   text-decoration: none;
 }
 .contact1 {
-  color: #212121;
   font-weight: 500;
   font-size: 14px;
+  color: #212121;
 }
 .contact2 {
   font-weight: 500;
@@ -49,7 +55,7 @@ ul {
   background: var(--brand-color);
   line-height: 1.876;
 }
-.p1 .p2 .p3 {
+p {
   color: var(--paragraph-color);
 }
 .s1 {
@@ -61,11 +67,6 @@ ul {
   font-size: 44px;
   line-height: 1.36;
   color: #ffffff;
-}
-body {
-  font-family: Roboto;
-  color: #212121;
-  font-size: 16px;
 }
 
 .lorem {
