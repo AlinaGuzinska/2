@@ -28,26 +28,26 @@ ul {
 .link {
   text-decoration: none;
 }
-.contact1 {
+.page {
   font-weight: 500;
   font-size: 14px;
   color: #212121;
 }
-.contact2 {
+.contact {
   font-weight: 500;
   font-size: 14px;
   color: var(--paragraph-color);
 }
-.contact1:hover {
+.page:hover {
   color: var(--brand-color);
 }
-.contact2:hover {
+.contact:hover {
   color: var(--brand-color);
 }
 .button {
   cursor: pointer;
 }
-.bw1 {
+.button-order {
   font-family: Roboto;
   font-size: 16px;
   font-weight: 700;
@@ -58,7 +58,7 @@ ul {
 p {
   color: var(--paragraph-color);
 }
-.s1 {
+.title-section {
   color: var(--text-color);
   background: var(--brand-background);
 }
@@ -79,37 +79,37 @@ h2 {
   font-weight: 700;
   line-height: 1.17;
 }
-.p1 {
+.lorem-text {
   font-size: 14px;
   line-height: 1.71;
 }
-.name {
+.team-list_title {
   font-weight: 500;
   line-height: 1.19;
   font-size: 16px;
 }
 
-.p2 {
+.team-list_subtitle {
   line-height: 1.19;
   font-size: 16px;
 }
-.example {
+.example-list_title {
   font-weight: 700;
   font-size: 18px;
   line-height: 0.5;
 }
-.p3 {
+.example-list_subtitle {
   line-height: 1.88;
   font-size: 16px;
 }
 
-.bw2 {
+.button-page {
   font-weight: 500;
   background: var(--text-color);
   line-height: 1.626;
   font-size: 16px;
 }
-.bw2:hover {
+.button-page:hover {
   color: #ffffff;
   background-color: var(--brand-color);
 }
